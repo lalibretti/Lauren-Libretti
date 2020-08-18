@@ -1,0 +1,103 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+<style type="text/css">
+body { 
+	margin:0 auto;
+	max-width: 600px;
+    color: #0008;
+    align-content: center;
+    background-color: #3333;
+    text-align: center;
+    padding: 30 50 50 30;
+    font-family: 'Montserrat', sans-serif;
+
+}
+ hr{
+ 	border: 0;
+ 	border-bottom: 2px solid #0008;
+ 	margin-bottom: 30px;
+ 	margin-left: 100px;
+ 	margin-right: 100px;
+
+ }
+
+h1 {
+color: #0008;
+	font-size: 80px;
+	font-weight: 2px;
+	font-family:'Montserrat', sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 10px #0003;
+	list-style: none;
+	width: 100%;
+	height: 90px;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom:30px;
+	white-space: nowrap;
+	overflow: show;
+	text-overflow: all;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+}
+
+p {
+	padding-top: 20px;
+	align-content: center;
+	text-align: center;
+	word-spacing: normal;
+	word-wrap: break-word;
+	white-space: normal;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: #0008;
+	font-family:'Montserrat', sans-serif;
+	font-style: initial;
+	font-weight: 5px;
+	line-height: 20px;
+
+}
+
+footer {
+	font-family: arial;
+	word-spacing: 20px;
+	font-style: italic;
+	font-size: 15px;
+	color:#888F;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+	margin-top: 10px;
+	letter-spacing: 5px;
+	line-height: 30px;
+}
+
+input[type="click for more"]{
+background: #000;
+font-color: white;
+font: sans-serif;
+padding-top: 10px;
+position: center;
+}
+.crop {
+	width: 350px;
+	height: 350px;
+	overflow:hidden;
+	left: 20px;
+}
+.Lauren img{
+	width: 250px;
+	height: 250px;
+	margin:0px 0 0 40px;
+	align-content: center;
+	size: 5px;
+	border: 2px;
+	border: #FFF8;
+	border-radius: 20px
+}
+	
+
+</style>
