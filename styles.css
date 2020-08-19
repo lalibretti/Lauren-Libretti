@@ -23,22 +23,20 @@ body {
 
 h1 {
 color: #0008;
-	font-size: 80px;
+	font-size: 100px;
 	font-weight: 2px;
-	font-family:'Montserrat', sans-serif;
 	text-align: center;
 	text-shadow: 2px 2px 10px #0003;
 	list-style: none;
 	width: 100%;
 	height: 90px;
 	margin: 0;
-	padding-top: 20px;
-	padding-bottom:30px;
+	padding: 20px 40px;
 	white-space: nowrap;
 	overflow: show;
 	text-overflow: all;
 	word-spacing: 5px;
-	letter-spacing: 5px;
+	letter-spacing: 10px;
 }
 
 /* nav bar*/ 
@@ -199,7 +197,7 @@ footer {
 /*input form */
 input[type="click for more"]{
 background: #000;
-font-color: white;
+color: white;
 font: sans-serif;
 padding-top: 10px;
 position: center;
