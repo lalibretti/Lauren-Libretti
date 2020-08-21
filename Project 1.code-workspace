@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"view-in-browser.customBrowser": "chrome"
+	}
+}
