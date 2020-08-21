@@ -140,7 +140,7 @@ footer {
    
 }
 /*facebook icon */
-.fa, .in, .lights {
+.fa, .in, .lights .linkedin .codepen .github {
     padding: 15px;
     font-size: 30px;
     width: 30px;
@@ -150,50 +150,10 @@ footer {
   }
   
   /* Add a hover effect */
-  .fa, .in, .lights :hover {
+  .fa, .in, .lights .linkedin .github:hover {
     opacity: 0.7;
   }
   
-  /* FB branding */
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-
-
-  /* insta brand */
-  /* Instragram */
-  .insta-instagram {
-    position: relative;
-    width: 36px;
-    height: 36px;
-    border-radius: 20%;
-    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
-  }
-  .insta-icon:after,
-  .insta-icon:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 25px;
-    height: 25px;
-    border: 2px solid #fff;
-    transform: translate(-50%, -50%);
-    content: ''
-  }
-  .insta-icon:before {
-    border-radius: 20%
-  }
-  .insta-icon:after {
-    width: 11px;
-    height: 11px;
-    border-radius: 50%
-  }
-  
-  
-
-
 /*input form */
 .form {
 padding: 20px;
@@ -201,14 +161,6 @@ margin: 50px auto;
 align-items: center;
 display: inline;
 
-}
-
-input[type="click for more"]{
-background: #000;
-color: white;
-font: sans-serif;
-padding-top: 10px;
-position: center;
 }
 
 /* profile pic index */
@@ -230,10 +182,37 @@ position: center;
 }
 
 /*carousel styling */
-
+/*
+.item {
+    width: 100em;
+    height: 100em;
+    max-width: 80%;
+    max-height: 80%;
+}*/
 .carousel-inner { 
     text-align: center;
 }
 .carousel .item>img {
     display: inline-block;
+    width: 50%;
+	height: 50%;
+	align-content: center;
+	size: 10%;
+	border: 4px;
+	border: #FFF8;
+    border-radius: 30px;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+button{
+    letter-spacing: 5px;
+    font: arial;
+    position: absolute;
+    display: inline;
+    font-weight: bold;
+}
+form {
+    border border-radius: 5px;
+    letter-spacing: 5px;
 }
