@@ -1,7 +1,15 @@
 /* font ref link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> */
+@media only screen and  (max-width: 600px) {
+    .body {position: center;
+        size: 50%;
+        font-size: 50%;
+        
+    }
+        }
+    }
 
 body { 
-	max-width: 600%;
+	/*max-width: 600%;*/
     color: #0008;
     align-content: center;
     background-color: #FFF9;
@@ -16,26 +24,27 @@ div#container {
 
 header {
     color: #0008;
-	font-size: 100px;
-	font-weight: 2px;
+	font-size: 2em;
+	font-weight: 0.13em;
 	text-align: center;
 	list-style: none;
 	margin: 0 auto;
 	white-space: nowrap;
 	overflow: show;
 	text-overflow: all;
-	word-spacing: 5px;
-    letter-spacing: 10px;
+	word-spacing: .3em;
+    letter-spacing: .6em;
     display: inline; 
 }
 
 h1{
-    font-size: 80px;
+    font-size: 2em;
     text-shadow: 2px 2px 10px #0003;
+    font-family: 'Montserrat', sans-serif;
 }
 hr {
     margin: auto;
-    height:2px;
+    height:.13em;
     border-width:0;
     color:gray;
     background-color:gray
@@ -48,14 +57,14 @@ hr {
     float:center;
     color:rgba(12, 11, 11, 0.6);
     text-align: center;
-    height: 5px;
+    height: .03em;
    /* padding: 14px 16px; */
     margin: auto auto;
     text-decoration: none;
-    font-size: 17px;
+    font-size: .8em;
     font-family: 'Monstserrat', sans-serif;
-    word-spacing: 10px;
-	letter-spacing: 5px;
+    word-spacing: .03em;
+	letter-spacing: .06em;
   }
   
   /* Change the color of links on hover */
@@ -82,18 +91,16 @@ hr {
           text-align: left;
         }
       }
+      
 
 h2{
    color:#0008;
-    font-size: 40px;
+    font-size: 3em;
 	font-weight: 2px;
 	font-family:'Montserrat', sans-serif;
 	text-align: center;
 	text-shadow: 2px 2px 10px #0003;
 	list-style: none;
-	width: 100%;
-	height: 90px;
-	margin: 0 auto;
 	padding: 20px;
     white-space: nowrap;
     word-spacing: 5px;
@@ -153,7 +160,7 @@ input#comment{
  }
 
  input#fname{
-     padding: 2px;
+     padding: .13em;
  }
  input#email{
 padding: 2px;
