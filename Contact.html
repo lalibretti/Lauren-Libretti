@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/Users/laurenlibretti/codes/Project 1/Project-1-8.17.20/styles.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,400;1,700&amp;display=swap">
+    
     <title>Contact Lauren</title>
     
 </head>
@@ -20,6 +21,9 @@
 </div>
     </header>
     <h2>Contact Lauren</h2>
+    <p>Affogato microdosing meditation,  Gochujang heirloom blog literally, gentrify pop-up enamel pin normcore whatever marfa PBR&B forage VHS lumbersexual retro.
+    
+    </p>
     <form action="https://formspree.io/mzbjqdlo" method="POST">
         <form action="/action_page.php">
         <label for="fname">name:
@@ -27,17 +31,17 @@
     <br>
     <input type="text" id="fname" name="fname">
 <br>
-<label for="email">email:
+    <label for="email">email:
 </label>
 <br>
-<input type="text" id="email" name="email" >
+    <input type="text" id="email" name="email" >
 <br>
-<label for="message">message:</label>
+    <label for="message">message:</label>
 <br>
-<input type="text" id="conmment" name="conmment">
+    <input type="text" id="comment" name="comment">
   <!-- your other form fields go here -->
 
-  <button type="submit">submit</button>
+  <button type="submit" onclick="handleClick()">submit</button>
     </form>
     </form>
 </div>
@@ -56,5 +60,10 @@
 	made with &hearts; by Lauren 
 </footer>
 </div>
+<script type="text/javascript">
+function handleClick() {
+    alert('Please fill out all forms');
+}
+</script>
 </body>
 </html>

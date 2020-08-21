@@ -15,7 +15,7 @@ div#container {
 }
 
 header {
-color: #0008;
+    color: #0008;
 	font-size: 100px;
 	font-weight: 2px;
 	text-align: center;
@@ -84,17 +84,17 @@ hr {
       }
 
 h2{
-    color:#0008;
+   color:#0008;
     font-size: 40px;
 	font-weight: 2px;
 	font-family:'Montserrat', sans-serif;
 	text-align: center;
 	text-shadow: 2px 2px 10px #0003;
 	list-style: none;
-	/*width: 100%;
-	height: 90px;*/
+	width: 100%;
+	height: 90px;
 	margin: 0 auto;
-	/*padding: 20px;*/
+	padding: 20px;
     white-space: nowrap;
     word-spacing: 5px;
 	letter-spacing: 5px;
@@ -113,6 +113,7 @@ p {
 	line-height: 30px;
 
 }
+
 /*footer styling*/
 footer {
 	font-family: arial;
@@ -128,9 +129,10 @@ footer {
 	margin-top: 10px;
 	letter-spacing: 5px;
     line-height: 30px;
+    text-decoration: none;
    
 }
-/*facebook icon */
+/* icons */
 .fa, .in, .lights .linkedin .codepen .github {
     padding: 15px;
     font-size: 30px;
@@ -146,18 +148,45 @@ footer {
   }
   
 /*input form */
-.form {
-padding: 20px;
-margin: 50px auto;
-align-items: center;
-display: inline;
-}
+input#comment{
+    height: 80px;
+ }
 
-label.email {
+ input#fname{
+     padding: 2px;
+ }
+ input#email{
+padding: 2px;
+ }
+
+
+input {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    display: inline-block;
+    text-align: start;
+    appearance: textarea;
     box-sizing: content-box;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color:#FFF5;
+    padding: 2px 0px 0px 2px;
     resize: auto;
     flex-direction: column;
 }
+
+button { 
+    letter-spacing: 5px;
+    font: arial;
+    position: absolute;
+    display: inline-block;
+    font-weight: bold;
+    margin: 2px;
+}
+
 /* profile pic index */
 .crop {
 	width: 350px;
@@ -182,7 +211,9 @@ label.email {
 .carousel .item>img {
     display: inline-block;
     width: 80%;
-	height: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
 	align-content: center;
 	size: 90%;
 	border: 4px;
@@ -192,16 +223,4 @@ label.email {
     max-height: 80%;
 }
 
-button{
-    letter-spacing: 5px;
-    font: arial;
-    position: absolute;
-    display: inline;
-    font-weight: bold;
-    flex-direction: column;
-}
-form {
-    size: 90%;
-    border-radius: 5px;
-    letter-spacing: 5px;
-}
+
