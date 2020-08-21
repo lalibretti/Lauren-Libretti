@@ -222,5 +222,10 @@ button {
     max-width: 80%;
     max-height: 80%;
 }
+a.right.carousel-control {
+background: none;
+}
 
-
+a.left.carousel-control{
+    background: none;
+}
