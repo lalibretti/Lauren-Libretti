@@ -151,9 +151,13 @@ padding: 20px;
 margin: 50px auto;
 align-items: center;
 display: inline;
-
 }
 
+label.email {
+    box-sizing: content-box;
+    resize: auto;
+    flex-direction: column;
+}
 /* profile pic index */
 .crop {
 	width: 350px;
@@ -194,6 +198,7 @@ button{
     position: absolute;
     display: inline;
     font-weight: bold;
+    flex-direction: column;
 }
 form {
     size: 90%;
