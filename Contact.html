@@ -5,11 +5,13 @@
     <link rel="stylesheet" type="text/css" href="/Users/laurenlibretti/codes/Project 1/Project-1-8.17.20/styles.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,400;1,700&amp;display=swap">
     <title>Contact Lauren</title>
-
+    
 </head>
 <body>
+    <div id="container">
     <header>
     <h1>Lauren Libretti</h1>
+    <hr>
 <div class="topnav">
     <a href="/Users/laurenlibretti/codes/Project 1/Project-1-8.17.20/librettiindex.html">home</a>
     <a href="/Users/laurenlibretti/codes/Project 1/Project-1-8.17.20/webdev.html">web dev</a> 
@@ -17,29 +19,27 @@
     <a class="active" href="/Users/laurenlibretti/codes/Project 1/Project-1-8.17.20/Contact.html">contact</a> 
 </div>
     </header>
-    <br>
-    <br>
     <h2>Contact Lauren</h2>
-<div class="form">
-<form action="https://formspree.io/mzbjqdlo"
-  method="POST">
-  <label>
-    name:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    email:
-    <input type="text" name="_replyto">
-  </label>
-  <br>
-  <br>
-  <label>
-    message:
-    <textarea name="message me"></textarea>
-  </label>
+    <form action="https://formspree.io/mzbjqdlo" method="POST">
+        <form action="/action_page.php">
+        <label for="fname">name:
+        </label>
+    <br>
+    <input type="text" id="fname" name="fname">
 <br>
+<label for="email">email:
+</label>
+<br>
+<input type="text" id="email" name="email" >
+<br>
+<label for="message">message:</label>
+<br>
+<input type="text" id="message" name="message">
+  <!-- your other form fields go here -->
+
   <button type="submit">submit</button>
-</form>
+    </form>
+    </form>
 </div>
 <footer id="bottom">
     <a xlink href="https://www.facebook.com/profile.php?id=5138727" class="fa">
@@ -55,5 +55,6 @@
     <br>
 	made with &hearts; by Lauren 
 </footer>
+</div>
 </body>
 </html>

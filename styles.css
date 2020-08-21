@@ -1,8 +1,6 @@
 /* font ref link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> */
 
 body { 
-    margin:0;
-    position: absolute;
 	max-width: 600%;
     color: #0008;
     align-content: center;
@@ -10,58 +8,56 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-
- hr {
- 	border: 0;
- 	border-bottom: 2px solid #0008;
- 	margin-bottom: 30px;
- 	margin-left: 100px;
- 	margin-right: 100px;
-
- }
+div#container {
+    margin: 20% auto;
+    width: 80%;
+    text-align: center;
+}
 
 header {
 color: #0008;
-/*	font-size: 100px;*/
+	font-size: 100px;
 	font-weight: 2px;
 	text-align: center;
-	text-shadow: 2px 2px 10px #0003;
+	/*text-shadow: 2px 2px 10px #0003;*/
 	list-style: none;
-	margin: 0;
-	padding: 20px 40px;
+	margin: 0 auto;
 	white-space: nowrap;
 	overflow: show;
 	text-overflow: all;
 	word-spacing: 5px;
     letter-spacing: 10px;
-    display: inline;
+    display: inline; 
 }
 
 h1{
-    font-size: x-large;
+    font-size: 80px;
 }
 
-/* nav bar*/ 
+/* nav bar*/ /*
 .topnav {
     background-color: #0008;
     overflow: hidden;
-    border: 2px;
+    border: 2%;
     border-radius: 20px;
-    margin: 0% 10%;
+    margin: 0% auto;
     max-width: 100%;
-  }
+    max-height: 50%;
+   size: 1%;
+  }*/
   
   /* links inside the navigation bar */
   .topnav a {
     float:center;
-    color: #f2f2f2;
+    color:rgba(12, 11, 11, 0.6);
     text-align: center;
+    height: 5px;
     padding: 14px 16px;
-    margin: 20px;
+    margin: auto auto;
     text-decoration: none;
     font-size: 17px;
     font-family: 'Monstserrat', sans-serif;
-    word-spacing: 5px;
+    word-spacing: 10px;
 	letter-spacing: 5px;
   }
   
@@ -98,23 +94,22 @@ h2{
 	text-align: center;
 	text-shadow: 2px 2px 10px #0003;
 	list-style: none;
-	width: 100%;
-	height: 90px;
-	margin: 0;
-	padding: 20px;
+	/*width: 100%;
+	height: 90px;*/
+	margin: 0 auto;
+	/*padding: 20px;*/
     white-space: nowrap;
     word-spacing: 5px;
 	letter-spacing: 5px;
 }
 p {
-	padding-top: 20px;
 	align-content: center;
 	text-align: center;
 	word-spacing: normal;
 	word-wrap: break-word;
 	white-space: normal;
-	padding-left: 50px;
-	padding-right: 50px;
+	/*padding-left: 50px;
+	padding-right: 50px;*/
 	color: #0008;
 	font-family:'Montserrat', sans-serif;
 	font-style: initial;
@@ -171,35 +166,27 @@ display: inline;
 	left: 20px;
 }
 .Lauren img{
-	width: 250px;
-	height: 250px;
-	margin:0px 0 0 30px;
+	width: 300px;
+	height: 300px;
 	align-content: center;
-	size: 5px;
 	border: 2px;
 	border: #FFF8;
 	border-radius: 20px
 }
 
 /*carousel styling */
-/*
-.item {
-    width: 100em;
-    height: 100em;
-    max-width: 80%;
-    max-height: 80%;
-}*/
+
 .carousel-inner { 
     text-align: center;
 }
 .carousel .item>img {
     display: inline-block;
-    width: 50%;
-	height: 50%;
+    width: 80%;
+	height: 80%;
 	align-content: center;
-	size: 10%;
+	size: 90%;
 	border: 4px;
-	border: #FFF8;
+	border: #FFF9;
     border-radius: 30px;
     max-width: 80%;
     max-height: 80%;
@@ -213,6 +200,7 @@ button{
     font-weight: bold;
 }
 form {
+    size: 90%;
     border border-radius: 5px;
     letter-spacing: 5px;
 }
