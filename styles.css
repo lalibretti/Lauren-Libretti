@@ -59,7 +59,7 @@ hr {
     color:rgba(12, 11, 11, 0.6);
     text-align: center;
     height: .03em;
-    
+
    /* padding: 14px 16px; */
     margin: auto auto;
     text-decoration: none;
@@ -94,7 +94,6 @@ hr {
         }
       }
       
-
 h2{
    color:#0008;
     font-size: 3em;
@@ -139,8 +138,8 @@ footer {
 	letter-spacing: 5px;
     line-height: 30px;
     text-decoration: none;
-   
 }
+
 /* icons */
 .fa, .in, .lights .linkedin .codepen .github {
     padding: 15px;
