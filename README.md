@@ -6,8 +6,8 @@
 ----
 Functionality features easy to find information to see examples of Lauren's previous work, links to other pages on social media & communities, and ways to get in conact with her. 
 
-![<a href="https://www.freepnglogos.com/images/html5-logo-31819.html" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" width="200" alt="html5 logo, best web design psd html cms development ecommerce" /></a>]  
-*HTML5, CSS, bootstrap, and Javascript*.
+<a href="https://www.freepnglogos.com/images/html5-logo-31819.html" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" width="200" alt="html5 logo, best web design psd html cms development ecommerce" /></a> 
+*HTML5, CSS, bootstrap, tailwind and, Javascript*.
 
 ----
 ## Future Improvement
