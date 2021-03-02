@@ -1,32 +1,72 @@
 /* font ref link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> */
-/*
-@media only screen and  (max-width: 600px) {
-    .body {position: center;
-        size: 0%;
-        font-size: 50%;
-        
+/*small devices */
+@media screen and (max-width: 600px) {
+    #hamnav label { 
+        display: inline-block; 
+        color: white;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+      }
+    
+      /* Break down menu items into vertical */
+      #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+      }
+    
+      /* Toggle Show/Hide Menu */
+      #hamitems { display: none; }
+      #hamnav input:checked ~ #hamitems { display: block; }
     }
-        }
-    */
+}
+#hamnav {
+    width: 100%;
+    background: #000;
+    /* Optional */
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Hide Hamburger */
+  #hamnav label, #hamburger { display: none; }
+  
+  /* Horizontal Menu Items */
+  #hamitems { display: flex; }
+  #hamitems a {
+    width: 20%; /* 100% / 5 tabs = 20% */
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  #hamitems a:hover {
+    background: #401408;
+  }
+
+#hamnav label, #hamburger { display: none; }
 
 body { 
-	/*max-width: 600%;*/
-    color: #0008;
+    color: #212121;
     align-content: center;
-    background-color: #FFF9;
+    background-color: #dce4ef;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-#container {
-    margin: 20% auto;
-    width: 80%;
+/*
+.container {
+    margin: 0 auto;
     text-align: center;
+    
 }
 
-header {
-    color: #0008;
+/*header {
+    color: #212121;
 	font-size: 2em;
 	font-weight: 0.13em;
+    text-shadow: rgba(192, 189, 189, 0.2);
 	text-align: center;
 	list-style: none;
 	margin: 0 auto;
@@ -36,6 +76,14 @@ header {
 	word-spacing: .3em;
     letter-spacing: .6em;
     display: inline; 
+}
+*/
+
+.Lauren {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -47,26 +95,23 @@ hr {
     margin: auto;
     height:.13em;
     border-width:0;
-    color:gray;
-    background-color:gray
+    color: #212121;
    }
 
 /* nav bar*/ /*
   
   /* links inside the navigation bar */
   .topnav a {
-    float:center;
+    float: center;
     color:rgba(12, 11, 11, 0.6);
     text-align: center;
     height: .03em;
-
-   /* padding: 14px 16px; */
     margin: auto auto;
     text-decoration: none;
     font-size: .8em;
     font-family: 'Monstserrat', sans-serif;
-    word-spacing: .03em;
-	letter-spacing: .06em;
+    word-spacing: .1em;
+	letter-spacing: .10em;
   }
   
   /* Change the color of links on hover */
@@ -95,7 +140,7 @@ hr {
       }
       
 h2{
-   color:#0008;
+   color:#212121;
     font-size: 3em;
 	font-weight: 2px;
 	font-family:'Montserrat', sans-serif;
@@ -114,7 +159,7 @@ p {
 	word-wrap: break-word;
 	white-space: normal;
 	margin: 5%;
-	color: #0008;
+	color: #212121;
 	font-family:'Montserrat', sans-serif;
 	font-style: initial;
 	font-weight: 5px;
@@ -123,37 +168,20 @@ p {
 }
 
 /*footer styling*/
-footer {
+.footer {
+    margin-top: 3%;
 	font-family: arial;
 	word-spacing: 20px;
 	font-style: italic;
-	font-size: 15px;
-	color:#888F;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+	font-size: 85%;
+    color: #212121;
 	text-align: center;
-	padding: 30px;
-	margin-top: 10px;
 	letter-spacing: 5px;
     line-height: 30px;
     text-decoration: none;
+
 }
 
-/* icons */
-.fa, .in, .lights .linkedin .codepen .github {
-    padding: 15px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-  
-  /* Add a hover effect */
-  .fa, .in, .lights .linkedin .github:hover {
-    opacity: 0.7;
-  }
   
 /*input form */
 input#comment{
@@ -196,19 +224,14 @@ button {
 }
 
 /* profile pic index */
-.crop {
-	width: 350px;
-	height: 350px;
-	overflow:hidden;
-	left: 20px;
-}
-.Lauren img{
-	width: 300px;
-	height: 300px;
+
+.Lauren img, img {
 	align-content: center;
 	border: 2px;
 	border: #FFF8;
 	border-radius: 20px
+   
+    
 }
 
 /*carousel styling */
