@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--tailwind--><link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
     <!--bootstrap--><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -22,17 +22,18 @@
 </head>
 
 <body class="gradient">
+    <header>
     <div class="container scale-100" ;>
-        <h1 class="md:text-6xl lg:text-10xl md:pt-5">Lauren Libretti</h1>
-        <hr>
-        <nav class="navbar navbar-expand-md navbar-light sm-light">
+        <h1 class="mt-4">Lauren Libretti</h1>
+        <hr class="hr-expand">
+        <nav class="navbar navbar-expand-sm navbar-light sm-light">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse md:text-2xl" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mt-2 mt-lg-0">
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0 d-flex">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
@@ -51,12 +52,14 @@
         <hr>
     </div>
     <!--container-->
-    </nav>
+</header>
+<section>
     <h2>Contact Me</h2>
     <div class="container">
         <p>Affogato microdosing meditation, Gochujang heirloom blog literally, gentrify pop-up enamel pin normcore
             whatever marfa PBR&B forage VHS lumbersexual retro.
         </p>
+        <div class="grid-container shadow-lg p-3 w-75 h-75 mx-auto bg-body rounded">
         <form action="https://formspree.io/mzbjqdlo" method="POST">
             <form action="/action_page.php">
                 <label for="fname">name:
@@ -76,7 +79,9 @@
                 <button type="submit" onclick="handleClick()">submit</button>
             </form>
         </form>
+    </div><!--grid-container-->
     </div><!--container-->
+</section>
     <div class="footer m-0 place-content-end">
         <footer id="bottom">
             <a xlink href="https://www.facebook.com/profile.php?id=5138727" class="fa">

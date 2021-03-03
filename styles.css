@@ -1,25 +1,12 @@
 /* font ref link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> */
 
-/*small devices */
-/* med screen */ 
-@media (min-width: 768px) {
-.navbar-expand-md .navbar-nav { 
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    justify-content: center;
-    font-size: medium;
-    }
-    .navbar-collapse {
-      justify-content: center;
-}
-}
-
 body {
 font-family: 'Courier Prime', monospace !important;
 font-family: 'Montserrat', sans-serif!important;
+text-align: center !important;
+justify-content: center;
 background-color: rgb(223, 199, 247);
-background-image: linear-gradient(to right,#85A2EB, rgb(252, 252, 252),#66C2E0);
+background-image: linear-gradient(80deg,#85A2EB, rgb(252, 252, 252),#66C2E0);
 }
 
 .container {
@@ -28,7 +15,47 @@ background-image: linear-gradient(to right,#85A2EB, rgb(252, 252, 252),#66C2E0);
     padding: 0 auto;
     
 }
+/*Grid */ 
+.grid-container {
+  display: grid;
+  margin: 5%;
+  width: fit-content;
+  border: 3px solid #1d1d1d;
+  box-shadow:100px white;
+  padding: 5%;
+  grid-gap: 2%;
+  background-color: none;
+  background-image: linear-gradient(289deg, #f9dede,white, #8ba6ca79),linear-gradient(37deg, #f9dede,white, #8ba6ca79),  linear-gradient( #f9dede,white);
+  
+}
 
+@media (min-width:768px), ::after {
+.grid-container {
+display: grid;
+padding: 5%;
+width: fit-content;
+margin: 5%;
+grid-template-columns: 3;
+align-items: top;
+
+}
+
+.left {
+grid-column: 1/2 ;
+grid-row: 1;
+width: 100%;
+
+}
+
+.right {
+grid-column: 2/3;
+grid-row: 1;
+justify-content: center;
+}
+}
+
+
+/*navbar*/
 navbar {
   color: #050505;
   background-color: rgba(255, 255, 255, 0.623);
@@ -45,7 +72,7 @@ navbar {
   letter-spacing: .6em;
   display: inline; 
 }
-*/
+
 
 .Lauren , {
     margin-top: 3%;
@@ -56,18 +83,21 @@ navbar {
    
 }
 
-h1{
-    font-size: 2em;
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.329) !important;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 5px;
+h1 {
+    font-size: 5%;
+    letter-spacing: .5em;
+    background-color: rgba(250, 240, 240, -0.13);
+    width: 100%;
+    margin-top: 3%;
 }
+}
+@media (max-width:600px ){
 hr {
+    display: none;
     margin: 0 auto;
     height:.13em;
-    border-width:0;
-    color: #1d1d1d;
    }
+  }
 
 /* nav bar*/ /*
   
@@ -84,9 +114,28 @@ hr {
     word-spacing: .1em;
 	letter-spacing: .10em;
   }
-  
+  /*Nav Bar small devices */
+/* med screen */ 
+@media (max-width: 300px) {
+  .navbar-expand-sm .navbar-nav { 
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      font-size: medium;
+      }
+      .navbar-collapse {
+        justify-content: center;
+  }
+  .hr-expand {
+    margin-top: 1rem;
+    height:.13em;
+    border-width:0;
+    color: #1d1d1d;
+   }
+  }
+
   /* Change the color of links on hover */
-  .navbar-expand-md a:hover {
+  .navbar-expand-sm a:hover {
     background-color: rgba(46, 45, 45, 0.308);
     color: black;
   }
@@ -96,7 +145,7 @@ hr {
     color: black;
   }
     /*small screen nav bar*/
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 300px) {
         .topnav.responsive {position: relative;}
         .topnav.responsive a.icon {
           position: absolute;
@@ -205,11 +254,11 @@ button {
 
 .Lauren img, img {
 	align-content: center;
-  size: 25%;
+  max-width: 100%;
+  height: auto;
 	border: 2%;
 	border: #FFF8;
-	border-radius: 20px
-  
+	border-radius: 20px  
     
 }
 

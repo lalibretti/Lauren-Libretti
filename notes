@@ -1,0 +1,31 @@
+<div
+        class="Lauren bg-gradient-to-r from-indigo-300 via-pink-100 to-blue shadow-2xl mx-10 grid md:grid-rows-1 grid-flow-col gap-5">
+        <div class="md:row-span-1 md:row-start-1">
+            <img src="images/LaurenHeadshots002.jpg" alt="image of Lauren">
+            </img>
+        </div>
+        <div class="md:col-span-2 md:col-start-2 md:row-start-1">
+            <p>Like many people at the beginning of quarantine, I tried making sourdough. After burning my first loaf, I
+                decided to swap out my cooking apron and learn to code. I started by self-learning and as I gained more
+                skills I realized this was something I wanted to pursue more than a hobby. I wanted more formal training
+                and enrolled in a bootcamp. I’m looking to continue learning and gain new skills in a professional
+                environment. I think my passion for coding comes from my experience as a lighting designer, I was using
+                technology to create something aesthetically pleasing and functional. I receive the same excitement and
+                pride when I deploy my code as when I see one of my designs on stage. I hope to continue my coding
+                journey in a community to help myself and others grow while working on real challenges. As a creative
+                thinkerand maker I'm extied to create functional things that are aesthetically pleasing. You can see
+                that reflected in my work as a lighting designer and developer.
+            </p> 
+ 
+ <a xlink href="https://www.linkedin.com/in/lauren-libretti/"
+            class="fa">
+            <img src="https://img.icons8.com/ios/100/000000/linkedin.png"/>
+        </a>
+       
+        <a xlink href="https://www.instagram.com/lalibretti/" class="in insta-instagram col-start-2">
+            <img src="https://img.icons8.com/carbon-copy/100/000000/instagram-new.png" />
+        </a>
+       
+        <a xlink href="https://www.laurenlibretti.com/" class="lights light-lighting col-start-3">
+            <img src="https://img.icons8.com/wired/64/000000/light.png" />
+        </a>
