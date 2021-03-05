@@ -1,5 +1,7 @@
 /* font ref link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> */
-
+html {
+  height: 100%;
+}
 body {
 font-family: 'Courier Prime', monospace !important;
 font-family: 'Montserrat', sans-serif!important;
@@ -13,12 +15,15 @@ background-image: linear-gradient(80deg,#85A2EB, rgb(252, 252, 252),#66C2E0);
     margin: 0 auto;
     text-align: center;
     padding: 0 auto;
-    
+}
+
+section {
+  margin: 3%;
 }
 /*Grid */ 
 .grid-container {
-  display: grid;
-  margin: 5%;
+  display: grid; 
+  grid-template-columns: 1
   width: fit-content;
   border: 3px solid #1d1d1d;
   box-shadow:100px white;
@@ -26,25 +31,32 @@ background-image: linear-gradient(80deg,#85A2EB, rgb(252, 252, 252),#66C2E0);
   grid-gap: 2%;
   background-color: none;
   background-image: linear-gradient(289deg, #f9dede,white, #8ba6ca79),linear-gradient(37deg, #f9dede,white, #8ba6ca79),  linear-gradient( #f9dede,white);
-  
+}
+.left {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+}
+.right {
+  grid-column: 1;
+  grid-row: 2;
+  width: 100%;
 }
 
-@media (min-width:768px), ::after {
+@media only screen and (min-width:768px) {
 .grid-container {
-display: grid;
+display: inline-grid;
 padding: 5%;
 width: fit-content;
 margin: 5%;
 grid-template-columns: 3;
 align-items: top;
-
 }
 
 .left {
 grid-column: 1/2 ;
 grid-row: 1;
 width: 100%;
-
 }
 
 .right {
@@ -74,13 +86,12 @@ navbar {
 }
 
 
-.Lauren , {
+.Lauren  {
     margin-top: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 3px 3px 1px !important;
-   
+    box-shadow: 3px 3px 1px !important; 
 }
 
 h1 {
@@ -90,7 +101,7 @@ h1 {
     width: 100%;
     margin-top: 3%;
 }
-}
+
 @media (max-width:600px ){
 hr {
     display: none;
@@ -190,7 +201,7 @@ p {
 
 /*footer styling*/
 .footer {
-  margin-top: 3%;
+  margin-top: 1%;
 	word-spacing: 20px;
 	font-style: italic;
 	font-size: 85%;
@@ -201,7 +212,9 @@ p {
   text-decoration: none;
 
 }
-
+a {
+  color: black !important;
+}
   
 /*input form */
 input#comment{
@@ -263,7 +276,9 @@ button {
 }
 
 /*carousel styling */
-
+.carousel {
+  size: 75%;
+}
 .carousel-inner { 
     text-align: center;
 }
