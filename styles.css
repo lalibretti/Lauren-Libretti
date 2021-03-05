@@ -262,7 +262,6 @@ button {
 }
     
    
-
 /* profile pic index */
 
 .Lauren img, img {
@@ -276,9 +275,7 @@ button {
 }
 
 /*carousel styling */
-.carousel {
-  size: 75%;
-}
+
 .carousel-inner { 
     text-align: center;
 }
