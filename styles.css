@@ -2,7 +2,8 @@
 html {
   height: 100%;
 }
-body {
+body { 
+font-size: 14px;
 font-family: 'Courier Prime', monospace !important;
 font-family: 'Montserrat', sans-serif!important;
 text-align: center !important;
@@ -13,12 +14,16 @@ background-image: linear-gradient(80deg,#85A2EB, rgb(252, 252, 252),#66C2E0);
 
 .container {
     margin: 0 auto;
-    text-align: center;
     padding: 0 auto;
+    text-align: center;
+    font-size: 16px;
 }
 
 section {
   margin: 3%;
+  padding-top:0 ;
+  padding: 3%;
+  min-height: 100%;
 }
 /*Grid */ 
 .grid-container {
@@ -28,6 +33,7 @@ section {
   border: 3px solid #1d1d1d;
   box-shadow:100px white;
   padding: 5%;
+  padding-bottom: 50px;
   grid-gap: 2%;
   background-color: none;
   background-image: linear-gradient(289deg, #f9dede,white, #8ba6ca79),linear-gradient(37deg, #f9dede,white, #8ba6ca79),  linear-gradient( #f9dede,white);
@@ -93,13 +99,17 @@ navbar {
     align-items: center;
     box-shadow: 3px 3px 1px !important; 
 }
-
+.svg {
+  justify-content: center;
+    align-items: center;
+}
 h1 {
     font-size: 5%;
     letter-spacing: .5em;
     background-color: rgba(250, 240, 240, -0.13);
     width: 100%;
     margin-top: 3%;
+    font-size: 22px;
 }
 
 @media (max-width:600px ){
@@ -201,10 +211,11 @@ p {
 
 /*footer styling*/
 .footer {
-  margin-top: 1%;
+  margin-top: -50px;
+  height: 50px;
 	word-spacing: 20px;
 	font-style: italic;
-	font-size: 85%;
+	font-size: 16px;
   color: #212121;
 	text-align: center;
 	letter-spacing: 5px;
@@ -273,7 +284,15 @@ button {
 	border-radius: 20px  
     
 }
-
+.fas {
+  display: inline-block;
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+align-content: center;
+size: 90%;
+}
 /*carousel styling */
 
 .carousel-inner { 
