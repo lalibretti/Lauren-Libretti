@@ -1,6 +1,4 @@
-# PortfolioProject- Readme 
-
-## Lauren Libretti Portfolio Site 🙋🏻‍♀️
+# Lauren Libretti Portfolio Site 🙋🏻‍♀️
 
 ### A portfolio site for Lauren to feature both 💻 development work and 💡 design work. 
 ----
