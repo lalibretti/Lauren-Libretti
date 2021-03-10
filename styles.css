@@ -36,7 +36,7 @@ section {
   padding-bottom: 50px;
   grid-gap: 2%;
   background-color: none;
-  background-image: linear-gradient(289deg, #f9dede,white, #8ba6ca79),linear-gradient(37deg, #f9dede,white, #8ba6ca79),  linear-gradient( #f9dede,white);
+  background-image: linear-gradient(289deg, #f9dede, white),linear-gradient(37deg, #f9dede,white, #8ba6ca79),  linear-gradient( #f9dede,white);
 }
 .left {
   grid-column: 1;
@@ -110,6 +110,7 @@ h1 {
     width: 100%;
     margin-top: 3%;
     font-size: 22px;
+    margin-top: 5px;
 }
 
 @media (max-width:600px ){
@@ -142,7 +143,7 @@ hr {
       justify-content: center;
       align-content: center;
       text-align: center;
-      font-size: medium;
+      font-size: 40px;
       }
       .navbar-collapse {
         justify-content: center;
@@ -180,6 +181,10 @@ hr {
         }
       }
       
+      ul.navbar-nav {
+        font-size: 20px;
+      }
+
 h2{
    color:#212121;
   font-size: 3em;
@@ -195,8 +200,7 @@ h2{
 }
 
 p {
-	align-content: center;
-	text-align:justify;
+	/*align-content: center; */
 	word-spacing: normal;
 	word-wrap: break-word;
 	white-space: normal;
@@ -205,13 +209,27 @@ p {
 	font-family: 'Courier Prime', monospace;
 	font-style: initial;
 	font-weight: 5px;
-	
-
+}
+.pdev {
+padding-top: 5px;
 }
 
+.lidev{
+color: #000;
+font-family: 'Courier Prime',  monospace;
+align-items: initial;
+justify-content: left; 
+}
+ul.listdev{
+  list-style-type: none ;
+}
+.devgrid {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
 /*footer styling*/
 .footer {
-  margin-top: -50px;
+  margin-top: 20px;
   height: 50px;
 	word-spacing: 20px;
 	font-style: italic;
@@ -228,48 +246,59 @@ a {
 }
   
 /*input form */
-input#comment{
-    height: 80px;
+form {
+  margin: 10px;
+  padding: 10px;
+}
+input#message{
+    height: 100px;
  }
 
  input#fname{
      padding: .13em;
  }
+
  input#email{
 padding: 2px;
  }
 
+ label {
+   padding-top: 2px;
+   margin-top: 15px;
+  color: #000;;
+ }
 
 input {
     text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
-    text-indent: 0px;
-    display: inline-block;
-    text-align: start;
     appearance: textarea;
     box-sizing: content-box;
-    border-width: 1px;
     border-style: solid;
-    border-radius: 5px;
     background-color:#FFF5;
     padding: 2px 0px 0px 2px;
     resize: auto;
     flex-direction: column;
+    box-shadow: 3px 4px ;
+
 }
 
 button { 
     letter-spacing: 5px;
     font: arial;
     position: absolute;
-    display: inline-block;
     font-weight: bold;
-    margin: 2px;
+    margin: 5px;
     letter-spacing: 2px;
     transition: .2s all ease-in-out;
     outline: none;
     border: 1px solid rgba(0,0,0,1);
     box-shadow: 3px 3px 1px;
+    margin: 5px;
+ 
+}
+button:hover {
+  background-color: #85A2EB;
 }
     
    
