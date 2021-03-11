@@ -28,7 +28,7 @@ section {
 /*Grid */ 
 .grid-container {
   display: grid; 
-  grid-template-columns: 1
+  grid-template-columns: 1;
   width: fit-content;
   border: 3px solid #1d1d1d;
   box-shadow:100px white;
@@ -284,17 +284,17 @@ input {
 }
 
 button { 
-    letter-spacing: 5px;
-    font: arial;
-    position: absolute;
-    font-weight: bold;
-    margin: 5px;
-    letter-spacing: 2px;
-    transition: .2s all ease-in-out;
-    outline: none;
-    border: 1px solid rgba(0,0,0,1);
-    box-shadow: 3px 3px 1px;
-    margin: 5px;
+  letter-spacing: 5px;
+  font: arial;
+  position: absolute;
+  font-weight: bold;
+  margin: 5px;
+  letter-spacing: 2px;
+  transition: .2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0,0,0,1);
+  box-shadow: 3px 3px 1px;
+  margin: 5px;
  
 }
 button:hover {
@@ -311,40 +311,100 @@ button:hover {
 	border: 2%;
 	border: #FFF8;
 	border-radius: 20px  
-    
+} 
+
+.img {
+  width: 80px;
+  height: 80px;
 }
+
 .fas {
   display: inline-block;
   width: 80%;
   height: 80%;
   margin-left: auto;
   margin-right: auto;
-align-content: center;
-size: 90%;
+  align-content: center;
+  size: 90%;
 }
-/*carousel styling */
-
-.carousel-inner { 
-    text-align: center;
-}
-.carousel .item>img {
-    display: inline-block;
-    width: 80%;
-    height: 80%;
-    margin-left: auto;
-    margin-right: auto;
-	align-content: center;
-	size: 90%;
-	border: 4px;
-	border: #FFF9;
-    border-radius: 30px;
-    max-width: 80%;
-    max-height: 80%;
-}
-a.right.carousel-control {
-background: none;
+/*lx slideshow */ 
+.slideshow-container {
+  position: relative;
+  margin: auto;
 }
 
-a.left.carousel-control{
-    background: none;
+/*hide images by default */ 
+.mySlides {
+ display: none;
+}
+
+/*next & previous */ 
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 5s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/*position next to the right */ 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* on hover, add black */ 
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/*caption text */ 
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* dots/bullets/indicator*/ 
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 5.6s ease;
+}
+
+ .dot:hover {
+  background-color: #717171;
+}
+
+/* fading anim */ 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 5}
+  to {opacity: 3;}
+}
+
+@keyframes fade {
+  from {opacity: 5;}
+  to {opacity: 3;}
 }
